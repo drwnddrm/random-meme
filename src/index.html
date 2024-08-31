@@ -7,7 +7,20 @@
   <title>Random Meme</title>
   <link rel="icon" href="<%=require('./images/favicon.svg')%>" type="image/svg+xml">
 </head>
-<body>
-  
+<body class="page">
+  <header class="header">
+    <img src="<%=require('./images/memasik-logo.png')%>" alt="Logo" class="header__logo">
+    <h1 class="header__title">Random Meme</h1>
+  </header>
+  <main class="content">
+    <div class="card">
+      <img class="card__image" src="" alt="">
+      <p class="card__title"></p>
+      <button class="card__next-button" type="button">next мемас</button>
+    </div>
+  </main>
+  <footer class="footer">
+    <h2 class="footer__author">made by who?</h2>
+  </footer>
 </body>
 </html>

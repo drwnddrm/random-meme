@@ -1,0 +1,14 @@
+@import url('./__author/footer__author.css');
+
+.footer {
+  display: flex;
+  justify-content: center;
+  border-block-start: 4px solid #f3eb04;
+  inline-size: 500px;
+}
+
+@media (max-width: 820px) {
+  .footer {
+    inline-size: 340px;
+  }
+}

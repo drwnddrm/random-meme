@@ -1,0 +1,16 @@
+.card__title {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  color: #cabf08;
+  inline-size: 800px;
+  line-height: 1.2;
+}
+
+@media (max-width: 820px) {
+  .card__title {
+    font-size: 15px;
+    inline-size: 340px;
+  }
+}

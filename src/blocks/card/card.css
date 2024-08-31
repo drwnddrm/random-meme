@@ -1,0 +1,10 @@
+@import url('./__image/card__image.css');
+@import url('./__title/card__title.css');
+@import url('./__next-button/card__next-button.css');
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-block-end: 50px;
+}

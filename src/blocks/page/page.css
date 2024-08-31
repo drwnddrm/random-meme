@@ -1,0 +1,9 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(328deg, rgb(59,5,124) 29%, rgb(9,70,121) 56%, rgb(46,172,97) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
